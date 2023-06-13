@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-alola",
+  "version": "0.1.0",
+  "main": ".eslintrc.js",
+  "license": "MIT",
+  "author": "Nguyen Hai Nam <nghainam2000@gmail.com>",
+  "sideEffects": false,
+  "repository": {
+    "url": "https://github.com/alolachat/alola-web.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-next": "^13.4.5",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-turbo": "^1.10.3",
+    "eslint-plugin-deprecate": "^0.7.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-optimize-regex": "^1.2.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

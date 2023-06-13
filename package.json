@@ -1,22 +1,63 @@
 {
+  "name": "alola-web",
   "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Nguyen Hai Nam <nghainam2000@gmail.com>",
+  "sideEffects": false,
+  "repository": {
+    "url": "https://github.com/alolachat/alola-web.git",
+    "type": "git"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "prepare": "husky install",
+    "lint-staged": "lint-staged",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,mdx}\"",
+    "commitlint": "commitlint --config commitlint.config.js -e -V"
   },
   "devDependencies": {
-    "@turbo/gen": "^1.9.7",
-    "eslint": "^7.32.0",
-    "eslint-config-custom": "*",
-    "prettier": "^2.5.1",
+    "@turbo/gen": "^1.10.3",
+    "@types/node": "^20.3.1",
+    "commitizen": "^4.3.0",
+    "cross-env": "^7.0.3",
+    "cz-customizable": "^7.0.0",
+    "dotenv-cli": "^7.2.1",
+    "eslint": "^8.42.0",
+    "eslint-config-alola": "*",
+    "gitmoji-cli": "^8.3.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8",
+    "rimraf": "^5.0.1",
     "turbo": "latest"
   },
-  "name": "alola-web",
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,md,mdx}": [
+      "prettier --config .prettierrc.json --write",
+      "eslint --cache --fix",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "yarn@1.22.18",
   "workspaces": [
     "apps/*",
+    "configs/*",
     "packages/*"
   ]
 }
