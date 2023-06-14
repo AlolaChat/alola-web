@@ -1,0 +1,35 @@
+{
+  "name": "@alola/utils",
+  "description": "Alola utilities library",
+  "version": "0.1.0",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./esm/index.js",
+      "require": "./cjs/index.js",
+      "types": "./lib/index.d.ts"
+    },
+    "./styles.css": "./esm/index.css"
+  },
+  "license": "MIT",
+  "author": "Nguyen Hai Nam <nghainam2000@gmail.com>",
+  "sideEffects": false,
+  "repository": {
+    "url": "https://github.com/alolachat/alola-web.git",
+    "type": "git",
+    "directory": "packages/alola-utils"
+  },
+  "keywords": [
+    "react",
+    "utilities",
+    "utils",
+    "library"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.5.2"
+  },
+  "devDependencies": {}
+}

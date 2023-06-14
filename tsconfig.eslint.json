@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "packages/alola-*/src",
+    "./types",
+    "./tests"
+  ],
+  "exclude": [
+    "public",
+    ".cache",
+    "node_modules",
+    "packages/alola-*/esm/**/*",
+    "packages/alola-*/lib/**/*",
+    "packages/alola-*/cjs/**/*"
+  ],
+  "compilerOptions": {
+    "paths": {
+      "@alola/*": ["packages/alola-*/src"],
+    }
+  }
+}

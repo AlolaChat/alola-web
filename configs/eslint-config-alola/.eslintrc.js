@@ -1,6 +1,7 @@
 module.exports = {
+  parser: '@typescript-eslint/parser',
   extends: ['airbnb', 'airbnb-typescript', 'next', 'turbo', 'prettier'],
-  plugins: ['deprecate', 'sort-keys-fix', 'optimize-regex'],
+  plugins: ['@typescript-eslint', 'deprecate', 'sort-keys-fix', 'optimize-regex'],
   rules: {
     '@next/next/no-html-link-for-pages': 'off',
     'max-len': [
@@ -80,4 +81,4 @@ module.exports = {
       presets: [require.resolve('next/babel')],
     },
   },
-};
+}

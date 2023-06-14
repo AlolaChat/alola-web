@@ -23,6 +23,8 @@
     "@commitlint/config-conventional": "^17.6.5",
     "@turbo/gen": "^1.10.3",
     "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
     "commitizen": "^4.3.0",
     "cross-env": "^7.0.3",
     "cz-customizable": "^7.0.0",
@@ -41,9 +43,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,mdx}": [
-      "prettier --config .prettierrc.json --write",
-      "eslint --cache --fix",
-      "git add"
+      "prettier --config .prettierrc.json --write"
     ]
   },
   "config": {
