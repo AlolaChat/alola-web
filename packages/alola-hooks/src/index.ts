@@ -24,3 +24,4 @@ export { useIsomorphicEffect } from './use-isomorphic-effect/use-isomorphic-effe
 export { useOrientation } from './use-orientation/use-orientation'
 export { useMediaQuery } from './use-media-query/use-media-query'
 export { useMergedRef, mergeRefs, assignRef } from './use-merged-ref/use-merged-ref'
+export { useMouse } from './use-mouse/use-mouse'
