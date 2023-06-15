@@ -13,6 +13,7 @@ export { useDocumentVisibility } from './use-document-visibility/use-document-vi
 export { useFocusTrap } from './use-focus-trap/use-focus-trap'
 export { useFocusReturn } from './use-focus-return/use-focus-return'
 export { useForceUpdate } from './use-force-update/use-force-update'
+export { useId } from './use-id/use-id'
 export { useEyeDropper } from './use-eye-dropper/use-eye-dropper'
 export { useIsomorphicEffect } from './use-isomorphic-effect/use-isomorphic-effect'
 export { useOrientation } from './use-orientation/use-orientation'
