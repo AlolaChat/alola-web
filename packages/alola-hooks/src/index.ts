@@ -1,3 +1,5 @@
+export * from './utils'
+
 export { useCallbackRef } from './use-callback-ref/use-callback-ref'
 export { useClickOutside } from './use-click-outside/use-click-outside'
 export { useClipboard } from './use-clipboard/use-clipboard'
@@ -56,3 +58,10 @@ export { useTextSelection } from './use-text-selection/use-text-selection'
 export { usePrevious } from './use-previous/use-previous'
 export { useFavicon } from './use-favicon/use-favicon'
 export { useHeadroom } from './use-headroom/use-headroom'
+
+export type { UseMovePosition } from './use-move/use-move'
+export type { OS } from './use-os/use-os'
+export type { HotkeyItem } from './use-hotkeys/use-hotkeys'
+export type { UseListStateHandlers } from './use-list-state/use-list-state'
+export type { IEyeDropperOpenReturnType } from './use-eye-dropper/use-eye-dropper'
+export type { UseMediaQueryOptions } from './use-media-query/use-media-query'

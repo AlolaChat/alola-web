@@ -1,19 +1,19 @@
-# Mantine core
+# Alola core
 
-[![npm](https://img.shields.io/npm/dm/@mantine/core)](https://www.npmjs.com/package/@mantine/core)
+[![npm](https://img.shields.io/npm/dm/@alola/core)](https://www.npmjs.com/package/@alola/core)
 
-Mantine core components library.
+Alola core components library.
 
-[View documentation](https://mantine.dev/)
+[View documentation](https://alola.dev/)
 
 ## Installation
 
 ```bash
 # With yarn
-yarn add @mantine/core @mantine/hooks
+yarn add @alola/core @alola/hooks
 
 # With npm
-npm install @mantine/core @mantine/hooks
+npm install @alola/core @alola/hooks
 ```
 
 ## License
