@@ -35,3 +35,4 @@ export { useResizeObserver, useElementSize } from './use-resize-observer/use-res
 export { useShallowEffect } from './use-shallow-effect/use-shallow-effect'
 export { useToggle } from './use-toggle/use-toggle'
 export { useUncontrolled } from './use-uncontrolled/use-uncontrolled'
+export { useViewportSize } from './use-viewport-size/use-viewport-size'
