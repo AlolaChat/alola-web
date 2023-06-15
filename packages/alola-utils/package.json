@@ -2,15 +2,7 @@
   "name": "@alola/utils",
   "description": "Alola utilities library",
   "version": "0.1.0",
-  "types": "./lib/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./esm/index.js",
-      "require": "./cjs/index.js",
-      "types": "./lib/index.d.ts"
-    },
-    "./styles.css": "./esm/index.css"
-  },
+  "main": "./src/index.ts",
   "license": "MIT",
   "author": "Nguyen Hai Nam <nghainam2000@gmail.com>",
   "sideEffects": false,
