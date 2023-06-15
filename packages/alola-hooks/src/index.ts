@@ -27,3 +27,4 @@ export { useMergedRef, mergeRefs, assignRef } from './use-merged-ref/use-merged-
 export { useMouse } from './use-mouse/use-mouse'
 export { useMove, clampUseMovePosition } from './use-move/use-move'
 export { usePagination } from './use-pagination/use-pagination'
+export { useQueue } from './use-queue/use-queue'
