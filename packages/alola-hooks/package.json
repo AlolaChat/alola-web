@@ -31,6 +31,7 @@
     "react": ">=18.0.0"
   },
   "dependencies": {
+    "@alola/utils": "*",
     "tslib": "^2.5.2"
   },
   "devDependencies": {}
