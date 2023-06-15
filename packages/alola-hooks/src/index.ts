@@ -7,6 +7,7 @@ export { useDebouncedCallback } from './use-debounced-callback/use-debounced-cal
 export { useDebouncedState } from './use-debounced-state/use-debounced-state'
 export { useDebouncedValue } from './use-debounced-value/use-debounced-value'
 export { useDidUpdate } from './use-did-update/use-did-update'
+export { useDisclosure } from './use-disclosure/use-disclosure'
 export { useEyeDropper } from './use-eye-dropper/use-eye-dropper'
 export { useIsomorphicEffect } from './use-isomorphic-effect/use-isomorphic-effect'
 export { useOrientation } from './use-orientation/use-orientation'
