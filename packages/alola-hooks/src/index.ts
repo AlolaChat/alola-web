@@ -1,5 +1,6 @@
 export { useCallbackRef } from './use-callback-ref/use-callback-ref'
 export { useClickOutside } from './use-click-outside/use-click-outside'
+export { useClipboard } from './use-clipboard/use-clipboard'
 export { useEyeDropper } from './use-eye-dropper/use-eye-dropper'
 export { useIsomorphicEffect } from './use-isomorphic-effect/use-isomorphic-effect'
 export { useOrientation } from './use-orientation/use-orientation'
