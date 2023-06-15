@@ -62,5 +62,8 @@
     "apps/*",
     "configs/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@preact/signals-react": "^1.3.2"
+  }
 }
