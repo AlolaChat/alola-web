@@ -1,7 +1,7 @@
 import { renderHook } from '@testing-library/react'
 import { useDidUpdate } from './use-did-update'
 
-describe('@mantine/hooks/use-did-update', () => {
+describe('@alola/hooks/use-did-update', () => {
   afterAll(() => {
     jest.clearAllMocks()
   })

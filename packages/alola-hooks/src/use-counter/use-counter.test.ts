@@ -1,7 +1,7 @@
 import { renderHook, act } from '@testing-library/react'
 import { useCounter } from './use-counter'
 
-describe('@mantine/hooks/use-counter', () => {
+describe('@alola/hooks/use-counter', () => {
   it('correctly returns initial state', () => {
     const hook = renderHook(() => useCounter(20, { min: 0, max: 100 }))
     expect(hook.result.current[0]).toBe(20)

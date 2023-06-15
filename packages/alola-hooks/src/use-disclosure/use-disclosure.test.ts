@@ -1,7 +1,7 @@
 import { act, renderHook } from '@testing-library/react'
 import { useDisclosure } from './use-disclosure'
 
-describe('@mantine/hooks/use-disclosure', () => {
+describe('@alola/hooks/use-disclosure', () => {
   it('handles close correctly', () => {
     const hook = renderHook(() => useDisclosure(true))
     expect(hook.result.current[0]).toBe(true)
