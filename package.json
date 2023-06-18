@@ -43,7 +43,8 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,mdx}": [
-      "prettier --config .prettierrc.json --write"
+      "prettier --config .prettierrc.json --write",
+      "git add ."
     ]
   },
   "config": {

@@ -1,0 +1,29 @@
+{
+  "name": "@alola/pyscript",
+  "description": "Alola pyscript library",
+  "version": "0.1.0",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "author": "Nguyen Hai Nam <nghainam2000@gmail.com>",
+  "sideEffects": false,
+  "repository": {
+    "url": "https://github.com/alolachat/alola-web.git",
+    "type": "git",
+    "directory": "packages/alola-pyscript"
+  },
+  "keywords": [
+    "react",
+    "pyscript",
+    "python",
+    "library"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "dependencies": {
+    "comlink": "^4.4.1",
+    "pyodide": "^0.23.3",
+    "tslib": "^2.5.3"
+  },
+  "devDependencies": {}
+}
