@@ -1,0 +1,28 @@
+{
+  "include": ["./src"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": ".",
+    "outDir": "lib",
+    "target": "ES2016",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": [
+      "es5",
+      "es6",
+      "dom",
+      "es2017",
+      "WebWorker"
+    ],
+    "declaration": true,
+    "declarationDir": "lib",
+    "jsx": "react",
+    "composite": true,
+    "strict": true,
+    "importHelpers": true,
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  },
+  "references": []
+}
