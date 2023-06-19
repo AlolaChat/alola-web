@@ -1,0 +1,43 @@
+{
+  "name": "postcss-preset-alola",
+  "version": "0.1.0",
+  "description": "PostCSS preset for Alola (0.1+) applications",
+  "main": "dist/preset.js",
+  "types": "dist/types/preset.d.ts",
+  "peerDependencies": {
+    "postcss": ">=8.0.0"
+  },
+  "dependencies": {
+    "postcss-mixins": "^9.0.4",
+    "postcss-nested": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.6",
+    "@types/postcss-mixins": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "eslint": "^8.42.0",
+    "postcss": "^8.4.24",
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.3"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "lint": "eslint src --cache",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run typecheck && npm run lint",
+    "prepublish": "npm test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alolachat/alola-web.git"
+  },
+  "keywords": [
+    "postcss",
+    "alola",
+    "react",
+    "css"
+  ],
+  "author": "nghainam2000@gmail.com",
+  "license": "MIT"
+}
